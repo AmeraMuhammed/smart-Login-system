@@ -1,0 +1,32 @@
+:root{
+    --error-color : red;
+    --welcome-color:#17a2b8;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+section{
+    height: 100vh;
+    background: #24353F;
+}
+.main-section{
+    padding: 50px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353F;
+}
+.title h1{
+    color: #17A2B8;
+}
+.error-color{
+    color: var(--error-color);
+}
+.welcome-color{
+    color: var(--welcome-color);
+}
+.success{
+    color: #18c758;
+}
